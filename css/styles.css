@@ -1,4 +1,4 @@
-#kids{
+#kid-container{
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -12,10 +12,10 @@
     text-align: center;
     color: #FF6699;
 }
-.color1{
+.kids{
     background-color: #C25A47;
 }
-#coder1{
+#coder{
      margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -28,7 +28,7 @@
     background-color: grey;
     text-align: center;
 }
-.codex{
+.coder{
     background-color: #213F63;
 }
 #writers{
