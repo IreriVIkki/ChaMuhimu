@@ -8,12 +8,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animate.css">
-    <title>Coders'</title>
+    <title>Coders</title>
 </head>
-<body class="coder">
-    <div class="container" id="coder">
-        <h1>Welcome!!! 🤖</h1>
-    <script src="js/jquery.js"></script>
+<body class="coder" style="background-image:url(images/developer.jpeg)">
+<div class="top">
+<h1>Let's code 👻!!</h1>
+</div>
+    <section id="gameArea">
+    <div class="container">
+        <div class="modal fade">
+        </div>
+            <div class="jumbotron" id="codex">
+                <div class="text-center">
+                  <button class="btn btn-success" id="slide"><strong>Cha Muhimu says:</strong></button>
+                  <div id="panel"><h2><strong>Leggo🤟</strong></h2></div>
+                    <div class="container p-2 d-flex flex-row">
+                        <button class="h1 py-3 px-4 btn btn-info mx-1 btn-lg" disabled="true" for="time" id="timeDisplay">0</button>
+                        <input class="form-control h1 text-right w-50 text-font-md userInput">
+                        <button class="form-control sysText h1 btn-light mx-1 pl-0 text-font-md" disabled="true">
+                            <span class="text-success" id="currentWord">The</span>
+                            <span id="otherWords">quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over
+                                the lazy dog.The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.</span>
+                        </button>
+                      <button class="btn btn-light h1 text-info" disabled="true">WPM: 23</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
