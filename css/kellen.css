@@ -13,7 +13,7 @@ h2{
     color: #FF6699;
    
 }
-#all-container{
+.jumbotron{
        margin: auto;
        margin-top: 100px;
        margin-bottom: 100px;
@@ -31,12 +31,4 @@ h2{
     float: center;
     text-align: center;
     
-}
-
-.welcome{
-    
-}
-.jumbotron{
- text-align: centre;
- margin : 0 auto;
 }

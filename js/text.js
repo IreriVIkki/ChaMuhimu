@@ -1,18 +1,3 @@
-//  function for systext as user types
-//  collect user input
-//  turn first system word blue when the user starts typing it
-//  turn first system word red when user makes a mistake
-//  turn all of the user text red when player makes a mistake
-//  remove currentWord from span when user finishes typing it
-//  add new first system word to currentWord span
-//  
-
-// var sysText = $('.sysText').text();
-// console.log(sysText)
-
-// var userInput = $('.userInput').val();
-// console.log(userInput)
-
 var originalSysText = "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog."
 
 function checkAccuracy(userInput, sysCompare){
