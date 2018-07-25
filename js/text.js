@@ -58,3 +58,4 @@ $('.userInput').on('keyup', function (e) {
     checkAccuracy(userInput, sysCompare);
     wordFinished(userInput, sysText);
 });
+
